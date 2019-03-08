@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BeeBadge)(type KiCad)(uri "$(KIPRJMOD)/BeeBadge.pretty")(options "")(descr "BeeBadge footprints")(disabled))
+  (lib (name SMBee)(type KiCad)(uri "$(KIPRJMOD)/SMBee.pretty")(options "")(descr "SMBee footprints"))
+)
