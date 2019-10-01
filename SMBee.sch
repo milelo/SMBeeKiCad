@@ -1,0 +1,315 @@
+EESchema Schematic File Version 4
+LIBS:SMBee-cache
+EELAYER 30 0
+EELAYER END
+$Descr User 8268 5827
+encoding utf-8
+Sheet 1 1
+Title "SMBee"
+Date "27-Aug-19"
+Rev "1.1.2"
+Comp "Mike Longworth"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMBee:LED Dst1
+U 1 1 59E086F7
+P 4750 1950
+F 0 "Dst1" H 4750 2050 50  0000 C CNN
+F 1 "LED" H 4750 1850 50  0000 C CNN
+F 2 "SMBee:LED_0805" H 4750 1950 50  0001 C CNN
+F 3 "" H 4750 1950 50  0001 C CNN
+	1    4750 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L SMBee:LED Der1
+U 1 1 59E08758
+P 4750 2600
+F 0 "Der1" H 4750 2700 50  0000 C CNN
+F 1 "LED" H 4750 2500 50  0000 C CNN
+F 2 "SmBee:LED_0805" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L SMBee:LED Dal1
+U 1 1 59E0877C
+P 4750 1650
+F 0 "Dal1" H 4750 1750 50  0000 C CNN
+F 1 "LED" H 4750 1550 50  0000 C CNN
+F 2 "SMBee:LED_0805" H 4750 1650 50  0001 C CNN
+F 3 "" H 4750 1650 50  0001 C CNN
+	1    4750 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMBee:LED Dar1
+U 1 1 59E087D0
+P 4750 2900
+F 0 "Dar1" H 4750 3000 50  0000 C CNN
+F 1 "LED" H 4750 2800 50  0000 C CNN
+F 2 "SMBee:LED_0805" H 4750 2900 50  0001 C CNN
+F 3 "" H 4750 2900 50  0001 C CNN
+	1    4750 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMBee:3000TR BT1
+U 1 1 59E0A76C
+P 2000 2400
+F 0 "BT1" H 1950 2525 50  0000 L BNN
+F 1 "3000TR" H 1950 2200 50  0000 L BNN
+F 2 "SMBee:BAT_3000TR" H 2000 2400 50  0001 L BNN
+F 3 "3000TR" H 2000 2400 50  0001 L BNN
+F 4 "Good" H 2000 2400 50  0001 L BNN "Availability"
+F 5 "None" H 2000 2400 50  0001 L BNN "Package"
+F 6 "0.52 USD" H 2000 2400 50  0001 L BNN "Price"
+F 7 "Ultra Low Profile SMT Coin Cell Battery Contact Retainer for 12 mm Cell" H 2000 2400 50  0001 L BNN "Description"
+F 8 "Keystone" H 2000 2400 50  0001 L BNN "MF"
+	1    2000 2400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5850 2050 0    60   Output ~ 0
+PRG
+Text GLabel 5850 2350 0    60   Output ~ 0
+DAT
+$Comp
+L SMBee:LED Del1
+U 1 1 59E0BF19
+P 4750 2300
+F 0 "Del1" H 4750 2400 50  0000 C CNN
+F 1 "LED" H 4750 2200 50  0000 C CNN
+F 2 "SMBee:LED_0805" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	1    0    0    1   
+$EndComp
+Text GLabel 3800 2200 2    60   Input ~ 0
+PRG
+Text GLabel 3800 1600 2    60   Input ~ 0
+DAT
+Text GLabel 3800 1750 2    60   Input ~ 0
+CLK
+Text GLabel 2000 1650 2    60   Input ~ 0
+PWR
+Text GLabel 2300 2950 2    60   Input ~ 0
+GND
+$Comp
+L SMBee:ALPS_SKRB SW1
+U 1 1 59E5D09D
+P 3750 2650
+F 0 "SW1" V 3800 2750 50  0000 L CNN
+F 1 "ALPS_SKRB" H 3750 2500 50  0000 C CNN
+F 2 "SMBee:ALPS-SKRB" H 3750 2850 50  0001 C CNN
+F 3 "" H 3750 2850 50  0001 C CNN
+	1    3750 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 1650 4950 1800
+Wire Wire Line
+	4950 2300 4950 2600
+Wire Wire Line
+	4900 2600 4950 2600
+Wire Wire Line
+	5100 1800 5100 2600
+Wire Wire Line
+	5100 1800 4950 1800
+Connection ~ 4950 1800
+Connection ~ 4950 2600
+Wire Wire Line
+	4550 2300 4550 2600
+Wire Wire Line
+	4550 1650 4550 1800
+Connection ~ 4550 1800
+Wire Wire Line
+	3550 2000 3750 2000
+Wire Wire Line
+	4400 2000 4400 2600
+Wire Wire Line
+	4400 2600 4550 2600
+Connection ~ 4550 2600
+Wire Wire Line
+	5100 3150 4250 3150
+Wire Wire Line
+	4250 3150 4250 2100
+Wire Wire Line
+	4250 2100 3550 2100
+Connection ~ 5100 2600
+Wire Wire Line
+	3550 2200 3750 2200
+Wire Wire Line
+	1950 1450 2950 1450
+Wire Wire Line
+	2000 3050 2300 3050
+Wire Wire Line
+	2950 3050 2950 2800
+Connection ~ 2950 3050
+Connection ~ 3750 2200
+Wire Wire Line
+	4400 1800 4550 1800
+Wire Wire Line
+	3800 1750 3750 1750
+Wire Wire Line
+	3750 1750 3750 2000
+Connection ~ 3750 2000
+Wire Wire Line
+	3800 1600 3650 1600
+Wire Wire Line
+	3650 1600 3650 1900
+Connection ~ 3650 1900
+Wire Wire Line
+	3550 1900 3650 1900
+Wire Wire Line
+	4400 1900 4400 1800
+Wire Wire Line
+	4900 1650 4950 1650
+Wire Wire Line
+	4950 1950 4900 1950
+Wire Wire Line
+	4900 2300 4950 2300
+Wire Wire Line
+	4950 2900 4900 2900
+Wire Wire Line
+	4550 2900 4600 2900
+Wire Wire Line
+	4600 2300 4550 2300
+Wire Wire Line
+	4550 1950 4600 1950
+Wire Wire Line
+	4600 1650 4550 1650
+Wire Wire Line
+	3750 2200 3750 2450
+Wire Wire Line
+	3750 3050 3750 2850
+NoConn ~ 3850 2450
+NoConn ~ 3850 2850
+Wire Wire Line
+	2300 3050 2300 2950
+Wire Wire Line
+	2000 2600 2000 3050
+NoConn ~ 2050 2200
+$Comp
+L SMBee:CONN_PIN J1-4
+U 1 1 59E61FBB
+P 6050 2350
+F 0 "J1-4" H 6150 2350 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 2250 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2350 50  0001 C CNN
+F 3 "" H 6050 2350 50  0001 C CNN
+	1    6050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1800 4950 1950
+Wire Wire Line
+	4950 2600 4950 2900
+Wire Wire Line
+	4950 2600 5100 2600
+Wire Wire Line
+	4550 1800 4550 1950
+Wire Wire Line
+	4550 2600 4550 2900
+Wire Wire Line
+	4550 2600 4600 2600
+Wire Wire Line
+	5100 2600 5100 3150
+Wire Wire Line
+	3750 2200 3800 2200
+Wire Wire Line
+	3750 2000 4400 2000
+Wire Wire Line
+	3650 1900 4400 1900
+$Comp
+L MCU_Microchip_ATtiny:ATtiny10-TS U1
+U 1 1 5C82B3E1
+P 2950 2200
+F 0 "U1" H 2420 2246 50  0000 R CNN
+F 1 "ATtiny10" H 3000 2400 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2950 2200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 3050
+Wire Wire Line
+	2300 3050 2950 3050
+Wire Wire Line
+	2950 3050 3750 3050
+Wire Wire Line
+	1950 1450 1950 1650
+Wire Wire Line
+	2950 1450 2950 1600
+Wire Wire Line
+	2000 1650 1950 1650
+Connection ~ 1950 1650
+Wire Wire Line
+	1950 1650 1950 2200
+$Comp
+L SMBee:CONN_PIN J1-1
+U 1 1 59E61E54
+P 6050 2050
+F 0 "J1-1" H 6150 2050 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 1950 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2050 50  0001 C CNN
+F 3 "" H 6050 2050 50  0001 C CNN
+	1    6050 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 2450 0    60   Output ~ 0
+GND
+Text GLabel 5850 2250 0    60   Output ~ 0
+CLK
+NoConn ~ 5850 2150
+Text GLabel 5850 2550 0    60   Output ~ 0
+PWR
+$Comp
+L SMBee:CONN_PIN J1-3
+U 1 1 59E6221D
+P 6050 2250
+F 0 "J1-3" H 6150 2250 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 2150 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2250 50  0001 C CNN
+F 3 "" H 6050 2250 50  0001 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMBee:CONN_PIN J1-5
+U 1 1 59E61F8C
+P 6050 2450
+F 0 "J1-5" H 6150 2450 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 2350 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2450 50  0001 C CNN
+F 3 "" H 6050 2450 50  0001 C CNN
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMBee:CONN_PIN J1-6
+U 1 1 59E61F60
+P 6050 2550
+F 0 "J1-6" H 6150 2550 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 2450 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2550 50  0001 C CNN
+F 3 "" H 6050 2550 50  0001 C CNN
+	1    6050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMBee:CONN_PIN J1-2
+U 1 1 59E633BF
+P 6050 2150
+F 0 "J1-2" H 6150 2150 50  0000 L CNN
+F 1 "CONN_PIN" H 6050 2050 50  0001 C CNN
+F 2 "SMBee:Conn-pad" H 6050 2150 50  0001 C CNN
+F 3 "" H 6050 2150 50  0001 C CNN
+	1    6050 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
