@@ -17,10 +17,10 @@ The Gerber files defines the various layers that constitute a PCB design. The Ge
 
 Generated gerber files for SMBee version:
 
-| SMBee | Generated with KiCad | Download 
--|-|-
+| SMBee | Generated with KiCad | Download | Changes
+-|-|-|- 
 | 1.1.1 | 5.0.2-5-10.14 | [SMBee1.1.1.zip]
-| 1.1.2 (latest)| 6.0.7 | [SMBee1.1.2.zip]
+| 1.1.2 (latest)| 6.0.7 | [SMBee1.1.2.zip] | Add (solder) paste layers
 
 Typically just send the zip to the manufacturer. The file formats and identifying file extensions will be accepted by most manufacturers including:
 
