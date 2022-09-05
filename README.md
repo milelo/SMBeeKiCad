@@ -19,7 +19,8 @@ Generated gerber files for SMBee version:
 
 | SMBee | Generated with KiCad | Download 
 -|-|-
-| 1.1.1 (latest)| 5.0.2-5-10.14 | [SMBee1.1.1.zip]
+| 1.1.1 | 5.0.2-5-10.14 | [SMBee1.1.1.zip]
+| 1.1.2 (latest)| 6.0.7 | [SMBee1.1.2.zip]
 
 Typically just send the zip to the manufacturer. The file formats and identifying file extensions will be accepted by most manufacturers including:
 
@@ -92,6 +93,7 @@ Clone this repository into your local file space and open SMBee.pro.
 [SMBee Firmware]: https://github.com/milelo/SMBeeFirmware
 [SMBeeHive Programmer]: https://github.com/milelo/SMBeeHiveKiCad
 [SMBee1.1.1.zip]: https://github.com/milelo/SMBeeKiCad/blob/master/gerber/SMBee1.1.1.zip?raw=true
+[SMBee1.1.2.zip]: https://github.com/milelo/SMBeeKiCad/blob/master/gerber/SMBee1.1.2.zip?raw=true
 [ELECROW]: https://www.elecrow.com/pcb-manufacturing.html
 [PCBs.io]: https://www.pcbs.io/
 [AISLER]: https://aisler.net/
